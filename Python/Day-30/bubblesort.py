@@ -1,8 +1,7 @@
 # Sort a list of numbers in ascending order.
 numbers = [64, 34, 25, 12, 22, 11, 5]
 
-#Types of sorting
-#1. Bubble sort
+# Bubble sort
 def bubble_sort(numbers):
     n = len(numbers)
     for i in range(n-1):
