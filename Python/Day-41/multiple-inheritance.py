@@ -1,11 +1,11 @@
 #Multiple Inheritance
 class Flyable:
     def fly(self):
-        print("It can fly")
+        print("Fly")
         
 class Swimmable:
     def swim(self):
-        print("It can swim")
+        print("Swim")
         
 class Duck(Flyable, Swimmable):
     def fly(self):
