@@ -10,7 +10,7 @@ class BankAccount:
         self.transactions.append(amount)
  
     def withdrawal(self, amount):
-        if self.balance < amount:
+        if self.balance < amount and amount <= 0:
             print("Transactions failed. Try again")
         else:
             self.balance -= amount
