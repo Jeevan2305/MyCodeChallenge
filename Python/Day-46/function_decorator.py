@@ -9,3 +9,5 @@ def func_decorator(func):
 @func_decorator
 def say_hello():
     print("Hello World")
+
+say_hello()
